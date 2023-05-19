@@ -32,6 +32,13 @@ public class Bicicleta {
         this.guidao = guidao;
     }
 
+    public Bicicleta(String nomeBicicleta) {
+
+    }
+
+    public Bicicleta(String tipoMaterial, String tipoGuidao, String tipoAro, String tipoPneus, String tipoQuadro, String tipoMarcha, String tipoSuspensao) {
+    }
+
     public int getAro() {
         return aro;
     }
